@@ -11,6 +11,8 @@ However, you can transfer ownership by using std::move, which moves the resource
 This is particularly useful in situations where you want to return a dynamically allocated resource from a function without copying it.
 
 Use unique_ptr as your default choice when dynamic memory is needed, but there's only a single owner.
+
+Reference: https://medium.com/@rithvikseth11/c-memory-management-simplified-47c58af2126c
 */
 
 #include <iostream>
