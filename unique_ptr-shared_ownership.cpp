@@ -10,6 +10,8 @@ This makes shared_ptr ideal for cases where ownership is shared across different
 However, this flexibility comes at a cost. shared_ptr is heavier than unique_ptr because of the reference counting mechanism, 
 and it may introduce circular reference issues in cases where two shared_ptrs are referencing each other, 
 which can lead to memory leaks if not handled carefully.
+
+Reference: https://medium.com/@rithvikseth11/c-memory-management-simplified-47c58af2126c
 */
 
 #include <iostream>
